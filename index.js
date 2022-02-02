@@ -112,7 +112,7 @@ const parseConfiguration = async () => {
         // "enterprise",
         "development",
         "developer-id",
-        // "mac-application"
+        "mac-application"
     ];
 
     if (!ValidExportMethods.includes(configuration.exportMethod)) {
